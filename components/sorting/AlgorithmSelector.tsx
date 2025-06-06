@@ -33,6 +33,11 @@ export function AlgorithmSelector({
         <SelectItem value="merge">Merge Sort</SelectItem>
         <SelectItem value="selection">Selection Sort</SelectItem>
         <SelectItem value="insertion">Insertion Sort</SelectItem>
+        <SelectItem value="heap">Heap Sort</SelectItem>
+        <SelectItem value="radix">Radix Sort</SelectItem>
+        <SelectItem value="counting">Counting Sort</SelectItem>
+        <SelectItem value="bucket">Bucket Sort</SelectItem>
+        <SelectItem value="shell">Shell Sort</SelectItem>
       </SelectContent>
     </Select>
   );

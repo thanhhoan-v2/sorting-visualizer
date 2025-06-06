@@ -3,4 +3,9 @@ export type SortingAlgorithm =
   | "quick"
   | "merge"
   | "selection"
-  | "insertion";
+  | "insertion"
+  | "heap"
+  | "radix"
+  | "counting"
+  | "bucket"
+  | "shell";
